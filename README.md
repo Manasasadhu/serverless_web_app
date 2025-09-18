@@ -1,6 +1,6 @@
 # serverless_web_app
 
-**Assignment 2** - **Building a Serverless Web Application with AWS Lambda and DynamoDB**
+**Assignment 2** - **Building a Serverless Web Application with AWS Lambda and DynamoDB** <br>
 Reference - https://sjsu.instructure.com/courses/1611826/assignments/7506911
 
 **Description**: <br>
@@ -29,7 +29,7 @@ AWS Lambda Function:
 AWS API Gateway
 <img width="1413" height="499" alt="image" src="https://github.com/user-attachments/assets/fb7fd693-82ac-4ee5-bbbd-f8a07bec2c21" />
 
-Testing the CRUD Operations:
+Testing the CRUD Operations: 
 
 1. POST (Create Student entry)
 <img width="838" height="465" alt="image" src="https://github.com/user-attachments/assets/b162a567-eb00-418a-a492-b7037c626645" />
@@ -43,10 +43,10 @@ Testing the CRUD Operations:
 4. DELETE (Delete student entry)
 <img width="847" height="447" alt="image" src="https://github.com/user-attachments/assets/52e694e7-d482-416d-9569-994ad57af4c1" />
 
-**Reflection**
+**Reflection** <br>
 Here are few challenges I faced while implementing the serverless web application.
 
-- As I worked in a free-tier basic account, I have seen few access issues around editing stages, roles etc..
+- As I worked in a free-tier basic account, I have seen few access issues around editing stages, roles etc.. <br>
 - There are few changes I had to do in the API Gateway while creating APIs for the API Gateway to accept JSON Schema requests from the client(postman, cmd, etc..).
 
 Overall, 
