@@ -3,7 +3,8 @@
 **Assignment 2** - **Building a Serverless Web Application with AWS Lambda and DynamoDB** <br>
 Reference - https://sjsu.instructure.com/courses/1611826/assignments/7506911
 
-**Description**: <br>
+##**Description**: <br>
+
 Steps for implementation <br>
 	1.	Set up DynamoDB Table -	Created a table named StudentRecords with student_id as the primary key. <br>
 	2.	Create Lambda Function - Wrote a function StudentRecordHandler to handle CRUD operations and Granted permissions for Lambda to read/write to DynamoDB. <br>
@@ -16,7 +17,7 @@ Steps for implementation <br>
 	4.	Deploy and Test API - Deployed API to a stage (e.g., /dev) and Used Postman or curl to send requests and verify records in DynamoDB. <br>
 	5.	Reflection - Documented challenges faced at the end of the readme. <br>
 
-**Implementation**:
+##**Implementation**:
 
 AWS Dynamo DB Table Records (Below are the table records after few create operations):
 <img width="404" height="240" alt="image" src="https://github.com/user-attachments/assets/572fbb9a-d368-467b-a19f-5b8a5591dd4b" />
@@ -43,7 +44,7 @@ Testing the CRUD Operations:
 4. DELETE (Delete student entry)
 <img width="847" height="447" alt="image" src="https://github.com/user-attachments/assets/52e694e7-d482-416d-9569-994ad57af4c1" />
 
-**Reflection** <br>
+##**Reflection** <br>
 Here are few challenges I faced while implementing the serverless web application.
 
 - As I worked in a free-tier basic account, I have seen few access issues around editing stages, roles etc.. <br>
