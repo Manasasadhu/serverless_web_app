@@ -3,22 +3,22 @@
 **Assignment 2** - **Building a Serverless Web Application with AWS Lambda and DynamoDB**
 Reference - https://sjsu.instructure.com/courses/1611826/assignments/7506911
 
-**Description**:
+**Description**: <br>
 Steps for implementation
-	1.	Set up DynamoDB Table -	Created a table named StudentRecords with student_id as the primary key.
-	2.	Create Lambda Function - Wrote a function StudentRecordHandler to handle CRUD operations and Granted permissions for Lambda to read/write to DynamoDB.
-	3.	Connect Lambda with API Gateway - Created a REST API (StudentAPI) with resources /students.
-	Configured methods:
-	•	POST → Add new student record.
-	•	GET → Retrieve student details.
-	•	(Optional) PUT → Update student details.
-	•	(Optional) DELETE → Delete student record.
-	4.	Deploy and Test API - Deployed API to a stage (e.g., /dev) and Used Postman or curl to send requests and verify records in DynamoDB.
-	5.	Reflection - Documented challenges faced at the end of the readme.
+	1.	Set up DynamoDB Table -	Created a table named StudentRecords with student_id as the primary key. <br>
+	2.	Create Lambda Function - Wrote a function StudentRecordHandler to handle CRUD operations and Granted permissions for Lambda to read/write to DynamoDB. <br>
+	3.	Connect Lambda with API Gateway - Created a REST API (StudentAPI) with resources /students. <br>
+	Configured methods: <br>
+	•	POST → Add new student record. <br>
+	•	GET → Retrieve student details. <br>
+	•	(Optional) PUT → Update student details. <br>
+	•	(Optional) DELETE → Delete student record. <br>
+	4.	Deploy and Test API - Deployed API to a stage (e.g., /dev) and Used Postman or curl to send requests and verify records in DynamoDB. <br>
+	5.	Reflection - Documented challenges faced at the end of the readme. <br>
 
 **Implementation**:
 
-AWS Dynamo DB Table Records:
+AWS Dynamo DB Table Records (Below are the table records after few create operations):
 <img width="404" height="240" alt="image" src="https://github.com/user-attachments/assets/572fbb9a-d368-467b-a19f-5b8a5591dd4b" />
 
 <img width="796" height="481" alt="image" src="https://github.com/user-attachments/assets/6eb9de57-17f8-42c1-a2ef-19058867a9a3" />
