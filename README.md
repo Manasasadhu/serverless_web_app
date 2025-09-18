@@ -4,7 +4,7 @@
 Reference - https://sjsu.instructure.com/courses/1611826/assignments/7506911
 
 **Description**: <br>
-_Steps for implementation _<br>
+Steps for implementation <br>
 	1.	Set up DynamoDB Table -	Created a table named StudentRecords with student_id as the primary key. <br>
 	2.	Create Lambda Function - Wrote a function StudentRecordHandler to handle CRUD operations and Granted permissions for Lambda to read/write to DynamoDB. <br>
 	3.	Connect Lambda with API Gateway - Created a REST API (StudentAPI) with resources /students. <br>
